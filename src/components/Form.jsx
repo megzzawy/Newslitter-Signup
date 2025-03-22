@@ -47,7 +47,7 @@ const Form = ({setEmail,setIsSubmitted}) => {
             setIsValid(true); // Reset error on change
           }}/>
         
-        <button className='md:w-full max-md:w-11/12 bg-black text-white p-2 px-3 rounded-lg mt-2 text-[14px] cursor-pointer mb-3' onClick={handleSubmit}>Subscribe to monthly newsletter</button>
+        <button className='md:w-full max-md:w-11/12 bg-black text-white p-2 px-3 rounded-lg mt-2 text-[14px] cursor-pointer max-md:mb-3' onClick={handleSubmit}>Subscribe to monthly newsletter</button>
 
       </div>
 
