@@ -17,7 +17,7 @@ const Form = ({setEmail,setIsSubmitted}) => {
   };
 
   return (
-    <div className='md:flex md:w-3/5 bg-white md:p-4 md:rounded-3xl  shadow-lg md:h-4/5 max-md:grid max-md:justify-center gap-4 md:flex-row-reverse'>
+    <div className='md:flex md:w-3/5 bg-white md:p-4 md:rounded-3xl  shadow-lg md:h-[580px] max-md:grid max-md:justify-center gap-4 md:flex-row-reverse'>
       <div className='md:w-1/2 flex max-md:self-start relative justify-end'>
       <img src={MobileImg} alt="illustration" className="w-full md:hidden" />
       <img src={img} alt="illustration" className="hidden md:block h-full w-auto object-cover " />
